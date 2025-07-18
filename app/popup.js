@@ -5,7 +5,9 @@ import { i18n } from './utils.js';
 const Popup = () => {
   const [title, setTitle] = useState('');
   const [url, setUrl] = useState('');
-  const [showQRCode, setShowQRCode] = useState(false);
+
+  // Determine if a QR code should be generated. 
+  const shouldGenerate = title.trim() && url.trim();
 
   // Read query parameters on component mount
   useEffect(() => {
@@ -17,13 +19,8 @@ const Popup = () => {
     setUrl(initialUrl);
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setShowQRCode(true);
-  };
-
   return html`
-    <form id="qrcode-form" onSubmit=${handleSubmit}>
+    <form id="qrcode-form">
       <div class="form-group">
         <label for="title">${i18n('form_title_label')}</label>
         <input 
@@ -49,13 +46,9 @@ const Popup = () => {
           placeholder=${i18n('form_url_placeholder')}
         />
       </div>
-      
-      <div class="form-group">
-        <button type="submit" class="btn-submit">${i18n('form_submit_button')}</button>
-      </div>
     </form>
     
-    ${showQRCode ? html`<${QRCodeCard} url=${url} title=${title} />` : ''}
+    ${(shouldGenerate) ? html`<${QRCodeCard} url=${url} title=${title} />` : ''}
   `;
 };
 

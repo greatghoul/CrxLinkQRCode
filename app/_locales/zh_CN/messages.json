@@ -22,9 +22,5 @@
   "form_url_placeholder": {
     "message": "输入网址",
     "description": "网址输入框占位符"
-  },
-  "form_submit_button": {
-    "message": "生成二维码",
-    "description": "提交按钮文本"
   }
 }

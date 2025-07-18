@@ -22,9 +22,5 @@
   "form_url_placeholder": {
     "message": "Enter URL",
     "description": "Placeholder for the URL input field"
-  },
-  "form_submit_button": {
-    "message": "Generate QR Code",
-    "description": "Text for the submit button"
   }
 }
