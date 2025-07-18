@@ -1,4 +1,5 @@
 import { html, useRef, useEffect } from '../libs/preact.js';
+import { i18n } from '../utils.js';
 import QRCode from '../libs/qrcode.js';
 
 // QR code card configuration
@@ -139,6 +140,9 @@ const QRCodeCard = ({ url, title }) => {
                 height=${config.height}
                 style="max-width: 100%; height: auto; border-radius: 8px;"
             />
+            <div class="qrcode-hint">
+                ${i18n('qrcode_hint_text')}
+            </div>
         </div>
     `;
 };

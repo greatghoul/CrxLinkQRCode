@@ -11,6 +11,9 @@ const Popup = () => {
 
   // Read query parameters on component mount
   useEffect(() => {
+    // Set page title dynamically
+    document.title = i18n('extension_name');
+
     const params = new URLSearchParams(window.location.search);
     const initialTitle = params.get('title') ? decodeURIComponent(params.get('title')) : '';
     const initialUrl = params.get('url') ? decodeURIComponent(params.get('url')) : '';

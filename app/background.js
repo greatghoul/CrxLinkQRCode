@@ -9,7 +9,7 @@ chrome.action.onClicked.addListener(async () => {
 
     // Calculate position to center the popup
     const width = 900;
-    const height = 500;
+    const height = 400;
     const left = Math.round(currentWindow.left + (currentWindow.width - width) / 2);
     const top = Math.round(currentWindow.top + (currentWindow.height - height) / 2);
     

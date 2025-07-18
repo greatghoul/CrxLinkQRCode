@@ -22,5 +22,9 @@
   "form_url_placeholder": {
     "message": "输入网址",
     "description": "网址输入框占位符"
+  },
+  "qrcode_hint_text": {
+    "message": "右键点击图片可复制或下载。",
+    "description": "二维码图片提示文本"
   }
 }
