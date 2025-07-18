@@ -1,0 +1,10 @@
+{
+  "extension_name": {
+    "message": "链接二维码生成器",
+    "description": "扩展名称"
+  },
+  "extension_description": {
+    "message": "为当前标签页生成包含标题和URL的二维码卡片",
+    "description": "扩展描述"
+  }
+}
