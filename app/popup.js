@@ -1,5 +1,5 @@
 import { html, render, useState, useEffect } from './libs/preact.js';
-import { i18n } from './libs/utils.js';
+import { i18n } from './utils.js';
 
 const Popup = () => {
   const [title, setTitle] = useState('');
