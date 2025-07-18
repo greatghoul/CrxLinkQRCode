@@ -14,7 +14,6 @@ chrome.action.onClicked.addListener(async () => {
     const top = Math.round(currentWindow.top + (currentWindow.height - height) / 2);
     
     // Get current tab's title and URL
-    console.log(currentTab);
     const tabTitle = encodeURIComponent(currentTab.title || '');
     const tabUrl = encodeURIComponent(currentTab.url || '');
 

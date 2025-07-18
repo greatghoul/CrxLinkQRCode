@@ -6,6 +6,11 @@
    ```
 2. We always use html to create template, like html`<div class="foo">...</div>`
 3. Preact component always use arrow function and manage in a separacted file under app/modules/
+   ```js
+   import QRCodeCard from './modules/QRCodeCard.js';
+   // ...
+   return html`<${QRCodeCard} url=${url} title=${title} />`;
+   ```
 
 ## Chrome Extension API
 

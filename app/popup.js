@@ -1,9 +1,11 @@
 import { html, render, useState, useEffect } from './libs/preact.js';
+import QRCodeCard from './modules/QRCodeCard.js';
 import { i18n } from './utils.js';
 
 const Popup = () => {
   const [title, setTitle] = useState('');
   const [url, setUrl] = useState('');
+  const [showQRCode, setShowQRCode] = useState(false);
 
   // Read query parameters on component mount
   useEffect(() => {
@@ -17,7 +19,7 @@ const Popup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // QR code generation logic will be added later
+    setShowQRCode(true);
   };
 
   return html`
@@ -53,7 +55,7 @@ const Popup = () => {
       </div>
     </form>
     
-    <div id="qrcode"></div>
+    ${showQRCode ? html`<${QRCodeCard} url=${url} title=${title} />` : ''}
   `;
 };
 
