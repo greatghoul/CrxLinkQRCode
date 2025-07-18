@@ -6,5 +6,25 @@
   "extension_description": {
     "message": "Generate qrcode card for active tab with its title and url",
     "description": "Description of the extension"
+  },
+  "form_title_label": {
+    "message": "Title",
+    "description": "Label for the title input field"
+  },
+  "form_title_placeholder": {
+    "message": "Enter title",
+    "description": "Placeholder for the title input field"
+  },
+  "form_url_label": {
+    "message": "URL",
+    "description": "Label for the URL input field"
+  },
+  "form_url_placeholder": {
+    "message": "Enter URL",
+    "description": "Placeholder for the URL input field"
+  },
+  "form_submit_button": {
+    "message": "Generate QR Code",
+    "description": "Text for the submit button"
   }
 }

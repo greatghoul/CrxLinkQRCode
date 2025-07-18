@@ -6,5 +6,25 @@
   "extension_description": {
     "message": "为当前标签页生成包含标题和URL的二维码卡片",
     "description": "扩展描述"
+  },
+  "form_title_label": {
+    "message": "标题",
+    "description": "标题输入框标签"
+  },
+  "form_title_placeholder": {
+    "message": "输入标题",
+    "description": "标题输入框占位符"
+  },
+  "form_url_label": {
+    "message": "网址",
+    "description": "网址输入框标签"
+  },
+  "form_url_placeholder": {
+    "message": "输入网址",
+    "description": "网址输入框占位符"
+  },
+  "form_submit_button": {
+    "message": "生成二维码",
+    "description": "提交按钮文本"
   }
 }
