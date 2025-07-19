@@ -2,7 +2,7 @@
 
 A Chrome extension that generates QR codes for links, making it easy to share web content between devices.
 
-![](./screenshots/popup-page.png)
+![](./assets/screenshot.png)
 
 ## Features
 
@@ -20,6 +20,10 @@ A Chrome extension that generates QR codes for links, making it easy to share we
 2. The current tab URL and title will be automatically filled in
 3. Optionally, modify the title or URL as needed - the QR code will update automatically
 4. Right-click on the QR code to copy or save it
+
+## Installation on Chrome Web Store
+
+[![](./assets/webstore.png)](https://chromewebstore.google.com/detail/link-qrcode-generator/jbadicnkfjhcogmfcbkgdbfefnkekblj)
 
 ## Installation in Development Mode
 
