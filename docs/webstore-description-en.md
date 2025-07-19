@@ -18,3 +18,5 @@ Instantly generate informative QR codes for any webpage! Share links with contex
 4. Share the QR code - recipients will see the page title when scanning
 
 Perfect for sharing links with context! Whether you're sharing articles, products, or important information, your audience will appreciate knowing what they're about to visit.
+
+This project is open source! Check out the repository at https://github.com/greatghoul/CrxLinkQRCode
