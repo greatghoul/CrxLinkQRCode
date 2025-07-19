@@ -26,5 +26,9 @@
   "qrcode_hint_text": {
     "message": "Right click the image to copy or download.",
     "description": "Hint text for QR code image"
+  },
+  "promo_link_text": {
+    "message": "Also available at https://feathertools.top/rich-qrcode",
+    "description": "Promotional link text"
   }
 }

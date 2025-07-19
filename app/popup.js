@@ -1,5 +1,6 @@
 import { html, render, useState, useEffect } from './libs/preact.js';
 import QRCodeCard from './modules/QRCodeCard.js';
+import PromoLink from './modules/PromoLink.js';
 import { i18n } from './utils.js';
 
 const Popup = () => {
@@ -52,6 +53,8 @@ const Popup = () => {
     </form>
     
     ${(shouldGenerate) ? html`<${QRCodeCard} url=${url} title=${title} />` : ''}
+
+    <${PromoLink} />
   `;
 };
 

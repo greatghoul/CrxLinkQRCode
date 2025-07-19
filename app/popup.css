@@ -62,3 +62,22 @@ label {
   text-align: center;
   margin-top: 10px;
 }
+
+.promo-link {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.promo-link:hover {
+  color: #3367d6;
+  text-decoration: underline;
+}
+
+.promo-link svg {
+  vertical-align: middle;
+  margin-right: 4px;
+}

@@ -26,5 +26,9 @@
   "qrcode_hint_text": {
     "message": "右键点击图片可复制或下载。",
     "description": "二维码图片提示文本"
+  },
+  "promo_link_text": {
+    "message": "也可在线使用 https://feathertools.top/rich-qrcode",
+    "description": "推广链接文本"
   }
 }
