@@ -6,11 +6,13 @@ A Chrome extension that generates QR codes for links, making it easy to share we
 
 ## Features
 
-- Generate QR codes for current tab URL
-- Customizable QR code with title
-- Copy QR code to clipboard
-- Save QR code as image
-- Internationalization support (English and Chinese)
+- One-Click Generation: Instantly create QR codes with page title and URL
+- Informative Codes: Users see webpage details before scanning - no more blind links!
+- Auto-Fill: Automatically populates with current page information
+- Customizable: Edit title or URL anytime - QR code updates instantly
+- Easy Sharing: Right-click to copy or save QR code images
+- Multi-Language Support: Available in English and Chinese
+- Secure & Local: QR codes are generated entirely locally, no data is sent to any server
 
 ## Usage
 
